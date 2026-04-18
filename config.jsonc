@@ -11,7 +11,8 @@
     ],
     "modules-right": [
         "network", 
-        "pulseaudio", 
+        "pulseaudio",
+        "backlight",
         "battery"
     ],
     "battery": {
@@ -56,5 +57,10 @@
        "persistent-workspaces": {
              "*": 5
        }
+},
+"backlight": {
+    "device": "intel_backlight",
+    "format": "{percent}% {icon}",
+    "format-icons": ["", ""]
 }
-}
+}gt

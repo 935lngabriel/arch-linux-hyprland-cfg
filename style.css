@@ -46,9 +46,10 @@ tooltip label {
 
 #battery,
 #pulseaudio,
-#network {
-    background-color: transparent;
-    color: white;
+#network,
+#backlight {
+    background-color: white;
+    color: #121212;
     padding: 0 5px;
     margin: 0 5px;
     border-radius: 5px;
